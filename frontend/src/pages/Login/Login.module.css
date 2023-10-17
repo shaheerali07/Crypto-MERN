@@ -1,0 +1,51 @@
+.loginWrapper {
+  margin: 0 auto;
+  width: 80vw;
+  height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginHeader {
+  font-size: 48px;
+  font-weight: bold;
+  width: inherit;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.logInButton {
+  background-color: #3861fb;
+  color: white;
+  border: none;
+  outline: none;
+  width: 30%;
+  border-radius: 10px;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.logInButton:disabled {
+  background-color: #6e8dfc;
+}
+
+.createAccount {
+  margin-top: 50px;
+  margin-left: 10px;
+  color: #16c784;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.errorMessage {
+  color: #ea3943;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+}

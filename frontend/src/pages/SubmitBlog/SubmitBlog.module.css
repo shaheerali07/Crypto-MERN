@@ -1,0 +1,54 @@
+.wrapper {
+  margin: 0 auto;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  font-size: 48px;
+  font-weight: bold;
+  width: inherit;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.content {
+  padding: 18px 30px;
+  margin: 15px;
+  width: 60%;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  font-size: 20px;
+  min-height: 200px;
+}
+
+.photoPrompt {
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  gap: 50px;
+  width: 60%;
+  align-items: center;
+}
+
+.submit {
+  background-color: #3861fb;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 30%;
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 40px;
+}
+
+.submit:hover,
+.submit:disabled {
+  background-color: #829dff;
+}

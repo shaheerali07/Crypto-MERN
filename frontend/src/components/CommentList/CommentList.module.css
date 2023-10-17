@@ -1,0 +1,20 @@
+.commentListWrapper {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+}
+
+.noComments {
+  color: #bebcc0;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.commentList {
+  height: 60vh;
+  overflow-y: auto;
+}

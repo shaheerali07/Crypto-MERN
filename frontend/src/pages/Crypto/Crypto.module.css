@@ -1,0 +1,39 @@
+.table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.head {
+  background-color: #f2f2f2;
+}
+
+.head th {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 12px;
+}
+
+.tableRow td {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.symbol {
+  width: 30px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.34.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
