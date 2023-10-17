@@ -19,7 +19,7 @@ function Navbar() {
     <>
       <nav className={styles.navbar}>
         <NavLink to="/" className={`${styles.logo} ${styles.inActiveStyle}`}>
-          CoinBounce
+          CRYPTO-MERN
         </NavLink>
 
         <NavLink
